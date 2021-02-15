@@ -26,10 +26,5 @@ class Player {
     });
   }
 
-  static getPlayerInfo(){
-    var playerInfoRef = database.ref('players');
-    playerInfoRef.on("value",(data)=>{
-      allPlayers = data.val();
-    })
-  }
+ 
 }
