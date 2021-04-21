@@ -43,13 +43,13 @@ class Game {
           fill("black");
 
         display_position+=20;
-        textSize(15);
-        text(allPlayers[plr].name + ": " + allPlayers[plr].distance, 120,display_position)
+        
+        //add game in database
       }
     }
 
    
-    
+    //set arrow function for increment in distance
     
   }
 }
